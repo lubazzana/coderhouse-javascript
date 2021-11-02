@@ -1,7 +1,7 @@
 let userName = prompt("Ingresá tu nombre");
 // alert("¡Hola " + nombreUsuario +"!");
 
-const magicNumber = 84;
+const magicNumber = Math.floor(Math.random() * 100);
 console.log(magicNumber);
 
 let userNumber;
@@ -16,15 +16,13 @@ if (userNumber < 0 || userNumber > 100) {
 }
 
 if (userNumber < magicNumber) {
-    alert("El número ingresado es menor que el Número Mágico. Volvé a intentarlo");
+    alert("El número ingresado es menor que el Número Mágico");
     intentos--;
     } else if (userNumber > magicNumber) {
-        alert("El número ingresado es mayor que el Número Mágico. Volvé a intentarlo");
+        alert("El número ingresado es mayor que el Número Mágico");
         intentos--;
     } else {
-        alert(`¡Felicitaciones ${userName}, encontraste el número mágico!`);
+        alert(`¡Felicitaciones ${userName}, encontraste el Número Mágico!`);
     }
 
-} while (userNumber !== magicNumber && intentos > 0) {
-    alert("¡Lo sentimos! Ya no tenés más intentos. ¡Suerte para la próxima!")
-}
+} while (userNumber !== magicNumber && intentos > 0)
