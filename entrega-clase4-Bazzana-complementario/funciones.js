@@ -6,4 +6,4 @@ let precioProducto = Number(prompt(`Ingrese el precio del producto`));
 let descuento = 500;
 let nuevoPrecio = restar(sumar(precioProducto, iva(precioProducto)), descuento);
 
-console.log(`El precio del producto con IVA incluido es de $${nuevoPrecio}`)
+console.log(`El precio final del producto con descuento e IVA incluidos es de $${nuevoPrecio}`)
