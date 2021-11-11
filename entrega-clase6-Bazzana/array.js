@@ -12,7 +12,7 @@ const carrito = [];
 productos.push(new Producto("Café", "Bebidas calientes", 150));
 productos.push(new Producto("Jugo de naranja", "Bebidas frías", 80));
 productos.push(new Producto("Sandwich", "Almuerzos y cenas", 400));
-// productos.push(new Producto("Alfajor", "Desayunos y meriendas", 95));
+
 
 
 const verProductos = (productos) => {
