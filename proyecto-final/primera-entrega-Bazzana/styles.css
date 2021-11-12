@@ -1,0 +1,66 @@
+:root {
+    /* --primary-color: #003476;
+    --secondary-color: #b4d2f7; */
+    --header-size: 4rem;
+    --font: 1.8rem;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* font-size: 62.5%; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.home{
+    align-content: center;
+    background-image: url('/proyecto-final/imagenes/sebastian-schuppik-H7xTpvBjJS4-unsplash\ \(1\).jpg');
+    background-size: cover;
+    background-color: black;
+    height: 880px;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 100px;
+}
+
+.titleWeb{
+    color: beige;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    font-weight: 500;
+}
+#contenedor{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+
+.info{
+    align-content: center;
+    height: 880px;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 100px;
+}
+.footer{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    background-size: cover;
+    background-color: black;
+    height: 50px;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 10px;
+    color: #fffdef !important;
+    vertical-align: middle !important;
+    font-weight: lighter;
+    font-size: 12px;
+}
