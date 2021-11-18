@@ -1,0 +1,23 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 { 
+    color: turquoise;
+    font-weight: bold;
+}
+
+h2 {
+    color: teal;
+    font-weight: bold;
+}
+
+h3, p {
+    color: gray;
+}
+
+h4 {
+    font-weight: bold;
+    color: teal;
+}
+
