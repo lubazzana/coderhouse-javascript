@@ -102,14 +102,17 @@ mostrarProductos.innerHTML = nuevoDiv;
 let pedido = [];
 
 function guardar(id) {
-	console.log('guardar');
+	//console.log('guardar');
 	if (localStorage.getItem('order')) {
-		pedido = JSON.stringify(localStorage.getItem('order'));
+		pedido = JSON.parse(localStorage.getItem('order'));
 	}
 
-	pedido.push(productos.map(el => el.id == id));
+	//console.log(productos.find(el => el.id == id && el));
+	pedido.push(productos.find(el => el.id == id && el));
 	localStorage.setItem('order', JSON.stringify(pedido));
 }
+
+
 
 // document.getElementById("add-cart-btn").addEventListener('click', e=> {
 // 	e.preventDefault();
