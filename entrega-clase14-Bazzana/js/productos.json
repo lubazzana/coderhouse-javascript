@@ -1,0 +1,7 @@
+[
+    {"id":1, "nombre":"Café", "precio":25, "categoria":"Cafetería", "imagen": "./images/fondo-portada.jpg"},
+	{"id":1, "nombre":"Café", "precio":65, "categoria":"Cafetería", "imagen": "./images/fondo-portada.jpg"},
+	{"id":1, "nombre":"Café", "precio":40, "categoria":"Cafetería", "imagen": "./images/fondo-portada.jpg"},
+	{"id":1, "nombre":"Café", "precio":90, "categoria":"Cafetería", "imagen": "./images/fondo-portada.jpg"},
+	{"id":1, "nombre":"Café", "precio":210, "categoria":"Cafetería", "imagen": "./images/fondo-portada.jpg"}
+]
