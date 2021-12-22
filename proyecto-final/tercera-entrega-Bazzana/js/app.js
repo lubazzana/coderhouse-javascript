@@ -213,6 +213,7 @@ $("#linkPortada").click(function (e) {
 
 
 
+
 // document.getElementById("add-cart-btn").addEventListener('click', e=> {
 // 	e.preventDefault();
 
