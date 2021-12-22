@@ -1,0 +1,7 @@
+[
+    {"id":1, "nombre":"Café", "precio":80, "categoria":"Cafetería", "imagen": "./images/café.jpg"},
+	{"id":2, "nombre":"Cappuccino", "precio":120, "categoria":"Cafetería", "imagen": "./images/cappuccino.jpg"},
+	{"id":3, "nombre":"Medialuna", "precio":40, "categoria":"Cafetería", "imagen": "./images/medialunas.jpg"},
+	{"id":4, "nombre":"Tostado", "precio":200, "categoria":"Cafetería", "imagen": "./images/torta.jpg"},
+	{"id":5, "nombre":"Porción de torta", "precio":350, "categoria":"Cafetería", "imagen": "./images/tostado.jpg"}
+]
