@@ -13,7 +13,7 @@
     <!-- tipografía -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
     <!--iconos-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -28,36 +28,34 @@
 <body>
     <!--navbar-->
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-5-strong">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-5-strong bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#portada">Navbar</a>
+                <a class="navbar-brand" href="#portada"><img src="./images/Logo.png" alt="portada home" id="logoNav"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse navbar-center" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li id="linkPortada" class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#portada">Inicio</a>
+                            <a class="nav-link color-me" aria-current="page" href="#portada">INICIO</a>
                         </li>
                         <li id="linkNosotros" class="nav-item">
-                            <a class="nav-link" href="#nosotros">Nosotros</a>
-                        </li>
-                        <li id="linkReserva" class="nav-item">
-                            <a class="nav-link" href="#reserva">Reservar</a>
+                            <a class="nav-link color-me" href="#nosotros">NOSOTROS</a>
                         </li>
                         <li id="linkCarta" class="nav-item">
-                            <a class="nav-link" href="#carta">Carta</a>
+                            <a class="nav-link color-me" href="#carta">NUESTRA CARTA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contacto">Contacto</a>
+                            <a class="nav-link color-me" href="#contacto">CONTACTO</a>
                         </li>
-                        </ul>
-                            <form class="d-flex">
-                                <input class="search m-2 p-2" type="search" placeholder="Buscar" aria-label="Search">
-                                <button class="btn btn-light m-2 p-2" type="submit">Buscar</button>
-                            </form>
+                    </ul>
+                    <!-- <form class="d-flex">
+                        <input class="search m-2 p-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-light m-2 p-2" type="submit">Buscar</button>
+                    </form> -->
                 </div>
+                <button class="btn btnReserva m-2 p-2" type="submit"><a class="nav-link" href="#reserva">RESERVÁ TU LUGAR</a></button>
             </div>
         </nav>
     </header>
@@ -66,11 +64,11 @@
     <section id="portada">
         <div class="container d-flex align-items-center justify-content-center alto-100">
             <div class="row">
-                <div class="col-12">
-                    <h1>Café</h1>
+                <div class="col-12 col-lg-12 d-flex align-items-center justify-content-center">
+                    <img src="./images/Logo.png" alt="logo café" id="logoHome">
                 </div>
-                <div class="col-12">
-                    <p>Café de especialidad</p>
+                <div id="btnReserva" class="col-12 col-lg-12 d-flex align-items-center justify-content-center">
+                    <button type="button" id="botonReserva" class="btn m-2 p-2"><a class="nav-link" href="#reserva">RESERVÁ TU LUGAR</a></button>
                 </div>
             </div>
         </div>
@@ -78,33 +76,29 @@
 
     <!--sección nosotros-->
     <section id="nosotros">
-        <div class="container align-items-center justify-content-center alto-100">
+        <div class="container d-flex align-items-center justify-content-center">
             <div class="row">
                 <div class="col-12 p-2 mt-5">
-                    <h3>NUESTRO CAFÉ</h3>
+                    <h3 id="nosTitle">NOSOTROS</h3>
                 </div>
-                <div class="col-12 m-0 p-2 mt-5">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cum iusto quia officia impedit atque consequuntur sint cupiditate ea, dignissimos sapiente ad explicabo, dicta voluptatem repudiandae voluptate neque. Quasi, ipsam!
-                    Unde, animi! Enim cupiditate voluptas blanditiis dolor veniam eos magni, asperiores qui ut impedit explicabo accusantium quaerat voluptatibus soluta amet rem, perferendis ea ipsam fugiat consectetur quas! Eius, distinctio tempore.
-                    Laudantium inventore natus accusamus officia quo recusandae at similique doloremque tenetur asperiores fugit vitae, debitis minima corporis odit voluptatum temporibus aliquid sed illo nihil est id omnis. Animi, vel repudiandae?</p>
-                </div>
-            </div>
+                <div id="nosPar" class="col-12 m-0 p-2 mt-5">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eum, officiis, ex aliquam architecto atque tempora impedit dolorem aut corrupti omnis voluptatem saepe, at aliquid dolore eaque molestias accusamus minima!
+                    Ducimus laudantium aut perspiciatis nulla laboriosam harum est recusandae eum ab mollitia totam magnam sunt architecto, sequi repellat tenetur fugit nobis laborum illum expedita voluptate. Quasi autem vel perspiciatis voluptatum?
+                    At odit id, rem a tempore cum dolores magnam iste, totam accusamus veniam ex minima explicabo laborum quis, quibusdam exercitationem modi natus harum dignissimos voluptatum esse dolore distinctio. Ratione, totam.</p>
 
-            <div class="row mt-5">
-                <div class="col-12 col-md-4 p-2">
-                    <img src="" alt="">
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas inventore ex dolores, ipsa hic ipsum repellat asperiores, excepturi odit incidunt, quibusdam minima repudiandae laboriosam id? Animi at eius ducimus dignissimos?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eum, officiis, ex aliquam architecto atque tempora impedit dolorem aut corrupti omnis voluptatem saepe, at aliquid dolore eaque molestias accusamus minima!
+                    Ducimus laudantium aut perspiciatis nulla laboriosam harum est recusandae eum ab mollitia totam magnam sunt architecto, sequi repellat tenetur fugit nobis laborum illum expedita voluptate. Quasi autem vel perspiciatis voluptatum?
+                    At odit id, rem a tempore cum dolores magnam iste, totam accusamus veniam ex minima explicabo laborum quis, quibusdam exercitationem modi natus harum dignissimos voluptatum esse dolore distinctio. Ratione, totam.</p>
                 </div>
-                <div class="col-12 col-md-4 p-2">
-                    <img src="" alt="">
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas inventore ex dolores, ipsa hic ipsum repellat asperiores, excepturi odit incidunt, quibusdam minima repudiandae laboriosam id? Animi at eius ducimus dignissimos?</p>
+
+                <div class="d-flex align-items-center justify-content-center">
+                    <img id="nosImg1" class="img-fluid col-12 col-lg-3 p-2 mt-5 mb-5" src="./images/Nosotros Home/01.jpg" alt="nosotros">
+                    <img id="nosImg2" class="img-fluid col-12 col-lg-3 p-2 mt-5 mb-5" src="./images/Nosotros Home/02.jpg" alt="nosotros">
+                    <img id="nosImg3" class="img-fluid col-12 col-lg-3 p-2 mt-5 mb-5" src="./images/Nosotros Home/03.jpg" alt="nosotros">
                 </div>
-                <div class="col-12 col-md-4 p-2">
-                    <img src="" alt="">
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas inventore ex dolores, ipsa hic ipsum repellat asperiores, excepturi odit incidunt, quibusdam minima repudiandae laboriosam id? Animi at eius ducimus dignissimos?</p>
+
+                <div id="btnNostros" class="col-12 col-lg-12 d-flex align-items-center justify-content-center">
+                    <button type="button" id="botonNosotros" class="btn m-2 p-2"><a class="nav-link" href="">VER MÁS</a></button>
                 </div>
             </div>
         </div>
@@ -115,10 +109,10 @@
         <div class="container d-flex align-items-center justify-content-center">
             <div class="row">
                 <div class="col-12 p-2 mt-5">
-                    <h3>RESERVAS</h3>
+                    <h3 id="resTitle">RESERVAS</h3>
                 </div>
 
-                <div class="col-12 mt-5" id="formulario">
+                <div class="col-12 mt-2 mb-5 pb-5" id="formulario">
                     <!-- <form id="form" class="form">
                         <div class="row m-3 form-control">
                             <label for="name" class="form-label">Nombre y apellido</label>
@@ -184,17 +178,47 @@
             </div>
         </div>
     </section>
-    
+
+    <!--sección carta-->
     <section id="carta">
         <div class="container">
             <div id="cartaCafe" class="row mt-5 mb-5">
+                <div class="col-12 p-2">
+                    <h3 id="cartaTitle">NUESTRA CARTA</h3>
+                </div>
 
             </div>
         </div>
+        
+        <button onclick="mostrarPedido()">MOSTRAR PEDIDO</button>
+        <div id="totalOrden">
+        </div>
     </section>
 
-
-    <section id="contacto"></section>
+    <!--sección contacto-->
+    <section id="contacto">
+        <div class="row">
+            <div class="col-12 p-2 mt-5 d-flex align-items-center justify-content-center">
+                <h3 id="conTitle">CONTACTO</h3>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 p-2 mt-3 mb-5 d-flex align-items-center justify-content-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54481.214740213!2d-64.20378752624471!3d-31.412034259231877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses-419!2sar!4v1641616080770!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-12 col-lg-6 p-2 mt-3 mb-5 align-items-left justify-content-left">
+                    <h5>Contactate con nosotros</h5>
+                    <ul id="datosContacto">
+                        <li><i id="icon" class="fab fa-instagram"></i><a id="link" href="https://www.instagram.com/">@thecafe</a></li>
+                        <li><i id="icon" class="fab fa-facebook-square"></i><a id="link" href="https://www.facebook.com/">The Cafe</a></li>
+                        <li><i id="icon" class="fab fa-twitter"></i><a id="link"href="https://twitter.com/">@thecafe</a></li>
+                        <li><i id="icon" class="fab fa-whatsapp"></i>+54 9 351 3333333</li>
+                        <li><i id="icon" class="fas fa-phone"></i>(0351) 444444</li>
+                        <li><i id="icon" class="fas fa-map-marker-alt"></i>Córdoba, Argentina</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer id="footer">
         <p>Creado por Lucrecia Bazzana</p>

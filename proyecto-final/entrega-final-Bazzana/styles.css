@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* font-size: 62.5%; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+	--primary-color: #E0B17F;
+	--secondary-color: #343332;
+	--terciary-color: #B8B6B5;
+}
+
+
+
+#reserva {
+	background-color: var(--secondary-color);
+}
+
+
+@media (min-width: 768px) { 
+    .alto-100 {
+        height: 100vh;
+    }
+}
+
+
+/*navbar*/
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+#logoNav {
+	width: 250px;
+}
+
+.color-me{
+    color: #fff !important;
+}
+
+.color-me:hover{
+    color: var(--primary-color) !important;
+}
+
+.btnReserva {
+	background-color: var(--primary-color);
+	width: 15rem;
+}
+a.nav-link {
+	color: #fff;
+}
+.btnReserva:hover {
+	font-weight: bold;
+	color: #fff !important;
+}
+
+
+/*portada*/
+#portada {
+    background-image: url('./images/Portadas/PortadaHOME.png');
+    background-size: cover;
+}
+
+#logoHome {
+	width: 40rem;
+}
+
+#botonReserva, #add-cart-btn {
+	background-color: var(--primary-color);
+	width: 15rem;
+	color: #fff !important;
+	border: none;
+}
+#btnReserva{
+	margin-top: 5rem;
+}
+
+
+/*nosotros*/
+#nosotros, #reserva {
+	margin-top: 3rem;
+	margin-bottom: 7rem;
+}
+
+#nosTitle {
+	color: var(--primary-color);
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+#nosPar {
+	color: var(--secondary-color);
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+#botonNosotros {
+	background-color: var(--primary-color);
+	width: 15rem;
+	color: #fff !important;
+}
+
+
+/*reservar*/
+#resTitle {
+	color: var(--primary-color);
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 2rem;
+}
+
+
+/*contacto*/
+#conTitle {
+	color: var(--primary-color);
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 2rem;
+}
+
+#datosContacto {
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.2rem;
+	color: var(--secondary-color);
+}
+
+#icon {
+	margin-right: 1rem;
+	padding-bottom: 1rem;
+	color: var(--primary-color);
+}
+
+#link {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+
+/*carta*/
+#cartaTitle {
+	color: var(--primary-color);
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-bottom: 3rem;
+}
+
+#remove-cart-btn {
+	background-color: var(--terciary-color);
+	width: 15rem;
+	color: #fff !important;
+	border: none;
+}
+
+#card-title {
+	text-align: center;
+	color: var(--secondary-color);
+}
+
+#card-text {
+	color: var(--primary-color);
+	text-align: center;
+}
+
+#card-category {
+	color: var(--terciary-color);
+	text-align: center;
+}
+
+/*footer*/
+#footer{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    background-color: var(--primary-color);
+    height: 50px;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 10px;
+    color: #fffdef !important;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+h1, h3, h4, p {
+    text-align: center;
+}
+
+
+/*form reservas */
+.form {
+	padding: 30px 40px;	
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+/* .form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}*/
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: var(--primary-color);
+	border: 2px solid var(--primary-color);
+	border-radius: 4px;
+	color: white;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+    font-weight: 700;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
