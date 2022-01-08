@@ -213,9 +213,15 @@ function mostrarPedido() {
 	let total = 0;
 	for(let prod of lsPedido) {
 		listaPedido += `
-		<div>
-		<p>${prod.nombre}</p>
-		<p>$${prod.precio}</p>
+		<div id="tablaPrecios">
+			<table class="table">
+				<tbody>
+					<tr>
+						<th>${prod.nombre}</th>
+						<td>$${prod.precio}</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>`
 
 		total += prod.precio;
@@ -225,7 +231,16 @@ function mostrarPedido() {
 	// $("#totalOrden").append(
 	`
 	<div>${listaPedido}</div>
-	<p>$${total}</p>
+	<div id="tablaPrecios">
+		<table class="table">
+			<tbody>
+				<tr id="montoTotal">
+					<th>MONTO TOTAL</th>
+					<td>$${total}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 	`;
 }
 

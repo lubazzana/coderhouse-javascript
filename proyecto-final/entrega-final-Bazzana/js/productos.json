@@ -1,11 +1,14 @@
 [
     {"id":1, "nombre":"Café", "precio":80, "categoria":"Cafetería", "imagen": "./images/café.jpg"},
-	{"id":2, "nombre":"Café con leche", "precio":100, "categoria":"Cafetería", "imagen": "./images/café.jpg"},
+	{"id":2, "nombre":"Café con leche", "precio":100, "categoria":"Cafetería", "imagen": "./images/cafe-leche.jpg"},
 	{"id":3, "nombre":"Cappuccino", "precio":120, "categoria":"Cafetería", "imagen": "./images/cappuccino.jpg"},
 	{"id":4, "nombre":"Medialuna", "precio":40, "categoria":"Panificación", "imagen": "./images/medialunas.jpg"},
-	{"id":5, "nombre":"Mafalda", "precio":150, "categoria":"Panificación", "imagen": "./images/medialunas.jpg"},
-	{"id":6, "nombre":"Brownie", "precio":100, "categoria":"Panificación", "imagen": "./images/medialunas.jpg"},
-	{"id":7, "nombre":"Alfajor", "precio":80, "categoria":"Panificación", "imagen": "./images/medialunas.jpg"},
+	{"id":5, "nombre":"Mafalda", "precio":150, "categoria":"Panificación", "imagen": "./images/mafalda.jpg"},
+	{"id":6, "nombre":"Brownie", "precio":100, "categoria":"Panificación", "imagen": "./images/brownie.jpg"},
+	{"id":7, "nombre":"Alfajor", "precio":80, "categoria":"Panificación", "imagen": "./images/alfajor.jpg"},
 	{"id":8, "nombre":"Tostado", "precio":200, "categoria":"Sándwiches", "imagen": "./images/tostado.jpg"},
-	{"id":9, "nombre":"Porción de torta", "precio":350, "categoria":"Tortas y tartas", "imagen": "./images/torta.jpg"}
+	{"id":9, "nombre":"Porción de torta", "precio":350, "categoria":"Tortas y tartas", "imagen": "./images/torta.jpg"},
+	{"id":10, "nombre":"Agua mineral sin gas", "precio":80, "categoria":"Bebidas", "imagen": "./images/agua.jpg"},
+	{"id":11, "nombre":"Jugo de naranja", "precio":200, "categoria":"Bebidas", "imagen": "./images/naranja.jpg"},
+	{"id":12, "nombre":"Té", "precio":150, "categoria":"Bebidas", "imagen": "./images/te.jpg"}
 ]

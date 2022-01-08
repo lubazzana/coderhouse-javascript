@@ -173,6 +173,23 @@ a.nav-link {
 	text-align: center;
 }
 
+#btnMostrar {
+	background-color: var(--secondary-color);
+	width: 15rem;
+	color: var(--primary-color);
+}
+
+#montoTotal{
+	background-color: var(--primary-color);
+}
+
+#tablaPrecios {
+	padding-left: 15rem;
+	padding-right: 15rem;
+	text-align: left;
+}
+
+
 /*footer*/
 #footer{
     align-content: center;
